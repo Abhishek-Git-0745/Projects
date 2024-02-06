@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#270565"
+                android:paddingLeft="8dp"
+                android:text="USER GUIDE"
+                android:textStyle="bold"
+                android:textColor="#4684B5"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:text="\n\t\t\t The Application called  a keyboard service that provides encryption and decryption to to the user
+                                this application is for the purpose of privacy in publically chatting and protect message spying  "
+                android:textColor="#EDE3E3"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="289dp"
+                android:layout_height="290dp"
+                android:layout_marginStart="50dp"
+                app:srcCompat="@drawable/bgugimg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:text="How It Works?\n\n\n "
+                android:textColor="@color/design_default_color_error"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:text="\t\t\t The application collectively provide an Android Keyboard. A keyboard is softeare application
+                                that normally used for input purpose. In our project we provide encryption through keyboard
+                                \n\n\t\t\tWe basically created a simple keyboard layout which usually all keyboards has, but later this we applied
+                                encryption algorithms with priodically changing basis.\n\n\t\t\twe have a strong logic to apply priodically changing algorithms
+                                .The user's of application can't aware of this logic and they might intentially covered from user. This is because of the possible misuse of application
+                                \n\n\t\t\tThe decryption module is rest inside MainActivity. In this activity other modules like user guide and about project information is provided."
+                android:textColor="#ECE8E8"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:text="Steps to enable Keyboard\n\n\n "
+                android:textColor="@color/design_default_color_error"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/bulletTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:text="\t\t1.Install StigoBoard application in your device\n\n\t2.Go to Setting ->Language and input -> Input Methods ->Current Keyboard.
+                                \n\n\t3.Select StigoBoard as a current keyboard "
+                android:textColor="#ECE8E8"
+                android:textSize="20sp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="357dp"
+                app:srcCompat="@drawable/img" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="316dp"
+                android:layout_height="259dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg"
+                app:srcCompat="@drawable/thanks" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

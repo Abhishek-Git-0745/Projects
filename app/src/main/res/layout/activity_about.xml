@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#270565"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:text="ABOUT"
+                android:textColor="#4684B5"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:text="\t\t\tThe purpose of this project is to provide a simple widget for Android mobile users, which they use on daily basis.\n\n \t\t\Keyboard is one of the most used input device
+                operated by most of all users on daily basis. On social media and information communication platforms input and output gone through keyboard except media files, but in the advanced artificial
+                intelligence era the every single word or sentence is traced by this platforms.They collect this whole data, process on it and use it for fulfil their own purpose.\n\n "
+                android:textColor="#ECE8E8"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/untitled1" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:text="\t\t\tThe main motto for
+                this development is to provide security to daily private conversions, communications and reduce hesitations in public place chatting.The main part in the project is to provide encryption and
+                decryption algorithms to keyboard. We preferred to change key codes of letters in the algorithm using different methods. For decryption algorithm is same asencryption algorithm. Switch between
+                algorithm takes place at server side only (user doesn’t have ability to change encryption algorithm) this because of restrict illegal use of tool."
+                android:textColor="#ECE8E8"
+                android:textSize="20sp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/busman" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="30dp"
+                android:justificationMode="inter_word"
+                android:padding="3dp"
+                android:text="\t\t\tThis is our final year Mega Project where we use our technical learning plus problem solving skills to
+                                design an application that provides encryption and decryption of text for that we used a tool called keyboard. This is only for learning
+                                implementation of knowledge and only for educational purpose"
+                android:textColor="#ECE8E8"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#272626"
+                android:text="Contact :"
+                android:textColor="#105F83"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:background="#272626"
+                android:paddingStart="20dp"
+                android:paddingBottom="40dp"
+                android:text="abhishekdkumbhar683@gmail.com"
+                android:textColor="#EDE5E5"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

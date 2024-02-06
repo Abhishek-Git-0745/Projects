@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="351dp"
+        android:layout_height="456dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="16dp"
+        app:cardElevation="4dp"><!-- Adjust margin as needed -->
+        <!-- Customize corner radius as needed -->
+        <!-- Customize shadow elevation as needed -->
+
+        <!-- Card content goes here -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <!-- Add your content (e.g., TextViews, ImageViews, etc.) here -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="Paste your message to DECRYPT"
+                android:textIsSelectable="false"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextInput"
+                android:layout_width="244dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="117dp"
+                android:ems="10"
+                android:hint="paste here!"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.323"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="137dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="183dp"
+                android:text="Decrypt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.369"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextInput" />
+
+            <EditText
+                android:id="@+id/editTextResult"
+                android:layout_width="270dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="117dp"
+                android:ems="10"
+                android:hint="Result"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
