@@ -1,32 +1,23 @@
 package com.example.myapplication;
 
-import android.app.AlertDialog;
+
 import android.content.Context;
-import android.content.Intent;
+
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
-import android.os.Bundle;
-import android.os.IBinder;
-import android.text.Editable;
+
 import android.text.TextUtils;
-import android.util.AttributeSet;
+
 import android.view.KeyEvent;
-import android.view.MotionEvent;
+
 import android.view.View;
 import android.view.inputmethod.InputConnection;
-import android.view.inputmethod.InputMethodInfo;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.ToggleButton;
+
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
+
 
 
 
